@@ -4,10 +4,7 @@
 <!-- Replace any media links with your own images/GIFs later if desired    -->
 <!-- ==================================================================== -->
 
-<p align="center">
-  <!-- Hero background image (Unsplash) + holographic overlay feel -->
-  <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=2d0a9f6b86b2b9bae86a19fd9b8b7c87" alt="AI holographic background" style="width:100%; max-width:1200px; border-radius:14px; box-shadow:0 18px 48px rgba(2,18,25,0.6);" />
-</p>
+
 
 <h1 align="center" style="color:#00f5d4; margin-top:10px;">Ravikiran S — AI / ML Engineer</h1>
 <p align="center" style="color:#bfeee6; font-size:16px; margin-bottom:12px;">
