@@ -1,144 +1,176 @@
-<!-- README.md - AI Themed Professional GitHub Profile for Ravikiran S -->
-<!-- Ensure you add the `assets/` files mentioned in the header instructions. -->
+<!-- README.md — Ravikiran S — Professional AI Profile (Holographic Theme) -->
+<!-- IMPORTANT:
+     - Ensure your repo has an `assets/` folder with the GIFs and SVGs named below.
+     - If GitHub preview does not animate an SVG, replace with the corresponding GIFs.
+-->
 
-<div align="center">
+<div align="center" style="max-width:1150px; margin:auto;">
 
-<!-- Background container -->
-<table cellpadding="0" cellspacing="0" width="100%" style="max-width:1100px; margin:auto; border-radius:12px; overflow:hidden; background:#071021;">
-  <tr>
-    <td align="center" style="padding:24px 20px 12px 20px;">
+<!-- HERO BANNER (blended) -->
+<div style="position:relative; border-radius:14px; overflow:hidden; box-shadow: 0 12px 38px rgba(2,18,25,0.6);">
+  <!-- background pattern (subtle) -->
+  <img src="./assets/bg-pattern.svg" alt="bg" style="width:100%; height:320px; object-fit:cover; filter:brightness(0.35) saturate(1.1);">
 
-      <!-- Top animated banner (use your own ai-banner.gif in assets/) -->
-      <img src="./assets/ai-banner.gif" alt="AI Neural Banner" width="100%" style="border-radius:8px; display:block; max-width:1100px;">
-
-      <!-- Hero text -->
-      <h1 align="center" style="font-family: 'Inter', sans-serif; color:#00f5d4; margin:18px 0 4px 0;">
-        Hi, I’m Ravikiran S 👋
+  <!-- AI animated banner on top, centered -->
+  <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; flex-direction:column; pointer-events:none;">
+    <img src="./assets/ai-banner.gif" alt="AI Banner" style="width:92%; max-width:1100px; border-radius:10px; box-shadow: 0 18px 48px rgba(0,245,212,0.06); pointer-events:auto;">
+    <div style="margin-top:-70px; text-align:center; pointer-events:auto;">
+      <h1 style="font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#00f5d4; margin:0; letter-spacing:0.6px;">
+        Ravikiran S — AI / ML Engineer
       </h1>
-      <p align="center" style="color:#bfece6; margin:0 0 18px 0; font-size:15px;">
-        AI / ML Engineer • Full Stack Developer • MCA Student at NMAMIT — Building production-ready computer-vision & multi-algorithm research systems.
+      <p style="color:rgba(190,238,230,0.95); margin:6px 0 18px 0; font-size:15px;">
+        MCA Student @ NMAMIT • Building production-grade computer vision & multi-algorithm AI systems • Research + Engineering
       </p>
+    </div>
+  </div>
+</div>
 
-      <!-- Quick badges -->
-      <p align="center" style="margin:12px 0;">
-        <img src="https://img.shields.io/badge/Focus-AI%20%26%20Computer%20Vision-%2300F5D4?style=for-the-badge&logo=ai" alt="AI Focus">
-        <img src="https://img.shields.io/badge/Stack-Python%20%7C%20YOLO%20%7C%20OpenCV-%2312100E?style=for-the-badge&logo=python&logoColor=white" alt="Stack">
-        <img src="https://img.shields.io/badge/Role-Research%20%7C%20Engineering-%23007ACC?style=for-the-badge&logo=researchgate" alt="Role">
-      </p>
+<br/>
+
+<!-- Main two-column layout -->
+<table width="100%" cellspacing="0" cellpadding="0" style="max-width:1150px; margin:auto;">
+  <tr valign="top">
+
+    <!-- LEFT column: About, Skills, Contact -->
+    <td width="42%" style="padding-right:20px;">
+
+      <div style="background: linear-gradient(180deg, rgba(3,12,18,0.82), rgba(2,8,14,0.95)); border-radius:12px; padding:18px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
+        <!-- Profile -->
+        <div style="display:flex; gap:14px; align-items:center;">
+          <img src="./assets/profile-photo.png" alt="profile" width="86" height="86" style="border-radius:12px; object-fit:cover; box-shadow: 0 8px 20px rgba(0,0,0,0.5); border:1px solid rgba(0,245,212,0.06);" />
+          <div>
+            <h2 style="margin:0; color:#d6fff3; font-size:20px;">Ravikiran S</h2>
+            <p style="color:#aef0de; margin:4px 0 0 0; font-size:13px;">MCA Student — NMAMIT, Karnataka</p>
+          </div>
+        </div>
+
+        <!-- About -->
+        <h3 style="color:#bfffe9; margin-top:14px; margin-bottom:6px;">About</h3>
+        <p style="color:#cdeee6; margin-top:0; line-height:1.5; font-size:13px;">
+          I design, implement and optimize AI systems that bridge research and production. My focus areas are
+          <strong>computer vision</strong>, <strong>multi-algorithm detection</strong>, and <strong>reliable offline deployment</strong>. I build tools for dataset generation, model evaluation, and scalable inference pipelines.
+        </p>
+
+        <!-- Expertise -->
+        <h3 style="color:#bfffe9; margin-top:12px; margin-bottom:6px;">Core Expertise</h3>
+        <ul style="color:#bfeee0; margin:6px 0 0 18px; line-height:1.55; font-size:13px;">
+          <li>Computer Vision — YOLO, DeepSort, OpenCV</li>
+          <li>Machine Learning — CNNs, SVM, ensemble methods</li>
+          <li>Data pipelines — video processing, dataset generation (COCO/PASCAL)</li>
+          <li>Deployment — Flask, Docker, Vercel, PostgreSQL, MongoDB</li>
+        </ul>
+
+        <!-- Tech stack -->
+        <h3 style="color:#bfffe9; margin-top:12px; margin-bottom:6px;">Tech Stack</h3>
+        <p style="margin:6px 0;">
+          <img src="https://skillicons.dev/icons?i=python,tf,pytorch,opencv,react,flask,nodejs,postgres,mongodb,docker&perline=5" alt="tech" />
+        </p>
+
+        <!-- Contact -->
+        <h3 style="color:#bfffe9; margin-top:8px; margin-bottom:8px;">Contact</h3>
+        <p style="color:#9fe6d6; margin:0; font-size:13px;">
+          GitHub: <a href="https://github.com/Ravikiran27" target="_blank" style="color:#8ff0de;">@Ravikiran27</a><br/>
+          Email & LinkedIn links available on my GitHub profile. Open to research & collaboration inquiries.
+        </p>
+      </div>
+
+      <!-- small spacer -->
+      <div style="height:14px;"></div>
+
+      <!-- Achievements / Paper -->
+      <div style="background: linear-gradient(180deg, rgba(4,18,24,0.75), rgba(2,10,16,0.95)); border-radius:12px; padding:14px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
+        <h3 style="color:#bfffe9; margin:0 0 8px 0;">Achievements</h3>
+        <ul style="color:#bfeee0; line-height:1.5; font-size:13px;">
+          <li>Paper accepted for <strong>ICoICI 2025</strong> (major revision): <em>"A Learning Model on Customer Churn Forecasting for Telecom Providers"</em></li>
+          <li>Multiple academic & engineering projects — dataset generation, offline object detection research.</li>
+        </ul>
+      </div>
 
     </td>
-  </tr>
 
-  <tr>
-    <td style="padding:18px 26px 26px 26px; background: linear-gradient(180deg, rgba(7,16,33,0.85), rgba(3,8,18,0.95));">
+    <!-- RIGHT column: Projects, visuals, contributions -->
+    <td width="58%">
 
-      <!-- Two columns: Left = About & Skills | Right = Projects & 3D Stats -->
-      <table width="100%" cellpadding="0" cellspacing="0">
-        <tr valign="top">
+      <!-- Projects list with blended GIFs -->
+      <div style="background: linear-gradient(180deg, rgba(3,12,18,0.82), rgba(2,8,14,0.95)); border-radius:12px; padding:18px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
 
-          <!-- LEFT: About + Skills -->
-          <td width="47%" style="padding-right:18px;">
+        <h2 style="color:#d6fff3; margin-top:0;">Selected Projects</h2>
 
-            <h2 style="color:#d6fff3; margin-bottom:6px;">About</h2>
-            <p style="color:#bfece6; line-height:1.5; margin-top:0;">
-              I am an MCA student at <b>NMAMIT, Karnataka</b>, focused on computer vision, multi-algorithm detection systems, and production-ready AI pipelines. I bridge research with field-ready engineering — designing reliable systems for constrained environments and large-scale video/data processing.
-            </p>
-
-            <h3 style="color:#d6fff3; margin-top:14px; margin-bottom:6px;">Core Expertise</h3>
-            <ul style="color:#c9fff0; line-height:1.6; margin-top:0; padding-left:18px;">
-              <li>Computer Vision — YOLO, DeepSort, OpenCV</li>
-              <li>Machine Learning — CNNs, SVM, classical ML pipelines</li>
-              <li>Production Engineering — Flask, Docker, Vercel, PostgreSQL, MongoDB</li>
-              <li>Data Pipelines — Large-scale video processing & dataset generation</li>
-            </ul>
-
-            <h3 style="color:#d6fff3; margin-top:14px; margin-bottom:6px;">Tech Stack</h3>
-            <p>
-              <img src="https://skillicons.dev/icons?i=python,tf,opencv,react,flask,nodejs,postgres,mongodb,git&perline=9" alt="tech icons">
-            </p>
-
-            <h3 style="color:#d6fff3; margin-top:14px; margin-bottom:6px;">Quick Links</h3>
-            <p style="margin:6px 0;">
-              <a href="https://github.com/Ravikiran27" target="_blank"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white"></a>
-              <a href="https://linkedin.com/in/your-link" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-            </p>
-
-          </td>
-
-          <!-- RIGHT: Projects + 3D Stats -->
-          <td width="53%" style="padding-left:18px;">
-
-            <h2 style="color:#d6fff3; margin-bottom:6px;">Selected Projects</h2>
-
-            <!-- Project 1 -->
-            <table width="100%" cellpadding="8" cellspacing="0" style="background:#071427; border-radius:10px; margin-bottom:12px;">
-              <tr>
-                <td width="45%" style="vertical-align:middle;">
-                  <img src="./assets/project-food.gif" alt="Food Detection" style="width:100%; border-radius:8px; display:block; max-height:150px; object-fit:cover;">
-                </td>
-                <td style="vertical-align:top;">
-                  <h4 style="color:#bfffe9; margin:6px 0 4px 0;">Food Detection in Video</h4>
-                  <p style="color:#cdeee6; font-size:13px; margin:0 0 8px 0; line-height:1.4;">
-                    A YOLO + DeepSort pipeline optimized to extract unique food item images from long videos. Tracking-based de-duplication reduces dataset noise and improves labeling efficiency.
-                  </p>
-                  <p style="color:#88ffd6; font-size:12px; margin:0;"><b>Key:</b> Real-time detection, deduplication, dataset export (COCO/PASCAL formats).</p>
-                </td>
-              </tr>
-            </table>
-
-            <!-- Project 2 -->
-            <table width="100%" cellpadding="8" cellspacing="0" style="background:#071427; border-radius:10px; margin-bottom:12px;">
-              <tr>
-                <td width="45%" style="vertical-align:middle;">
-                  <img src="./assets/project-flower.gif" alt="Flower Detection" style="width:100%; border-radius:8px; display:block; max-height:150px; object-fit:cover;">
-                </td>
-                <td style="vertical-align:top;">
-                  <h4 style="color:#bfffe9; margin:6px 0 4px 0;">Flower Detection — Research</h4>
-                  <p style="color:#cdeee6; font-size:13px; margin:0 0 8px 0; line-height:1.4;">
-                    Comparative study using 6+ algorithms (CNN variants, SVM, classical feature-based) built for offline deployment and academic publication.
-                  </p>
-                  <p style="color:#88ffd6; font-size:12px; margin:0;"><b>Key:</b> Offline models, cross-validation reports, and ablation studies.</p>
-                </td>
-              </tr>
-            </table>
-
-            <!-- 3D Stats & Contribution Globe -->
-            <div style="display:flex; gap:12px; margin-top:12px; align-items:center;">
-              <div style="flex:1; background:#081826; border-radius:12px; padding:12px;">
-                <h4 style="color:#d6fff3; margin:0 0 8px 0;">Profile Highlights</h4>
-                <p style="color:#cdeee6; margin:0 0 10px 0;">Committed to reproducible AI and clean engineering. Key metrics below (static summary — no external calls).</p>
-                <ul style="color:#bfeee0; margin:0; padding-left:18px; line-height:1.6;">
-                  <li><b>Repositories:</b> 12+</li>
-                  <li><b>Commits (all-time):</b> 1,200+</li>
-                  <li><b>Collaborations:</b> 10+ projects</li>
-                  <li><b>Research:</b> 1+ accepted paper (ICoICI 2025 — major revision)</li>
-                </ul>
-              </div>
-
-              <!-- 3D cube SVG file (save as assets/3d-cube.svg) -->
-              <div style="width:260px; height:160px; background:linear-gradient(180deg,#04121a,#02111a); border-radius:12px; display:flex; align-items:center; justify-content:center; padding:8px;">
-                <img src="./assets/3d-cube.svg" alt="3D Projects Cube" style="width:220px;">
-              </div>
+        <!-- Project: Food Detection -->
+        <div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:12px;">
+          <div style="flex:0 0 42%; position:relative;">
+            <!-- background card to blend GIF into UI -->
+            <div style="border-radius:10px; overflow:hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.55);">
+              <img src="./assets/project-food.gif" alt="Food Detection" style="display:block; width:100%; height:180px; object-fit:cover; mix-blend-mode:screen; filter: contrast(1.02) saturate(1.1);" />
+              <!-- semi transparent overlay for readability -->
+              <div style="position:absolute; left:0; right:0; bottom:0; height:56px; background:linear-gradient(180deg, rgba(2,8,12,0), rgba(0,0,0,0.6));"></div>
             </div>
+          </div>
 
-            <!-- Contribution Globe (animated) -->
-            <div style="margin-top:12px; text-align:center;">
-              <img src="./assets/contrib-globe.svg" alt="Contributions Globe" style="max-width:440px; border-radius:10px; display:block; margin:auto; background:linear-gradient(180deg, rgba(0,245,212,0.03), rgba(0,245,212,0.01)); padding:8px;">
-              <p style="color:#9ef0de; margin-top:8px; font-size:13px;">Contributions & milestones visualized as a rotating globe (animated SVG) — unique, professional and API-free.</p>
+          <div style="flex:1;">
+            <h3 style="color:#bfffe9; margin:0 0 6px 0;">Food Detection in Video</h3>
+            <p style="color:#cdeee6; margin:0 0 6px 0; font-size:13px; line-height:1.45;">
+              A YOLO + DeepSort pipeline optimized to extract <strong>unique food item images</strong> from long videos. Uses tracking-based deduplication to avoid saving repeated frames — ideal for clean dataset generation.
+            </p>
+            <p style="color:#88ffd6; margin:0; font-size:12px;"><strong>Deliverables:</strong> Clean image tiles, COCO/PASCAL exports, metadata CSVs, deduplication scripts.</p>
+          </div>
+        </div>
+
+        <!-- Project: Flower Detection (research) -->
+        <div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:12px;">
+          <div style="flex:0 0 42%; position:relative;">
+            <div style="border-radius:10px; overflow:hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.55);">
+              <img src="./assets/project-flower.gif" alt="Flower Detection" style="display:block; width:100%; height:180px; object-fit:cover; mix-blend-mode:screen; filter: contrast(1.02) saturate(1.1);" />
+              <div style="position:absolute; left:0; right:0; bottom:0; height:56px; background:linear-gradient(180deg, rgba(2,8,12,0), rgba(0,0,0,0.6));"></div>
             </div>
+          </div>
 
-          </td>
-        </tr>
-      </table>
+          <div style="flex:1;">
+            <h3 style="color:#bfffe9; margin:0 0 6px 0;">Flower Detection — Research</h3>
+            <p style="color:#cdeee6; margin:0 0 6px 0; font-size:13px; line-height:1.45;">
+              Comparative experiments with 6+ algorithms (CNNs, SVM, classical features) designed for <strong>offline deployment</strong> and optimized accuracy-efficiency trade-offs. Includes cross-validation and ablation studies.
+            </p>
+            <p style="color:#88ffd6; margin:0; font-size:12px;"><strong>Deliverables:</strong> Model checkpoints, evaluation reports, research-ready datasets.</p>
+          </div>
+        </div>
 
-      <!-- Footer -->
-      <div style="margin-top:16px; text-align:center; color:#9eeadf; font-size:13px;">
-        <p style="margin:6px 0 2px 0;"><b>Let's build intelligent systems that matter.</b></p>
-        <p style="margin:0; color:#8fe6d2;">Email / LinkedIn links are in my GitHub profile — reach out for collaborations or research discussions.</p>
+        <!-- Visuals row: hologram cube + globe -->
+        <div style="display:flex; gap:12px; margin-top:8px;">
+          <div style="flex:0 0 48%; border-radius:12px; overflow:hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.55); padding:12px; background:linear-gradient(180deg,#02131a,#041421);">
+            <h4 style="color:#d6fff3; margin:0 0 8px 0;">3D Project Cube</h4>
+            <img src="./assets/hologram-cube.gif" alt="3D cube" style="width:100%; border-radius:8px; display:block;" />
+            <p style="color:#9fe6d6; margin:8px 0 0 0; font-size:12px;">Visual snapshot of project highlights — interactive by design (animated preview).</p>
+          </div>
+
+          <div style="flex:0 0 48%; border-radius:12px; overflow:hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.55); padding:12px; background:linear-gradient(180deg,#02131a,#041421);">
+            <h4 style="color:#d6fff3; margin:0 0 8px 0;">Contributions Globe</h4>
+            <img src="./assets/hologram-globe.gif" alt="globe" style="width:100%; border-radius:8px; display:block;" />
+            <p style="color:#9fe6d6; margin:8px 0 0 0; font-size:12px;">Stylized visualization of contributions & activity — unique, API-free rendering.</p>
+          </div>
+        </div>
+
+        <!-- Streak visualization -->
+        <div style="margin-top:12px; border-radius:12px; overflow:hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.45);">
+          <img src="./assets/streak-3d.gif" alt="streak" style="width:100%; display:block;" />
+          <div style="padding:10px 12px; background:linear-gradient(180deg,#02111a,#03121a); color:#9fe6d6; font-size:13px;">
+            <strong>Contributions & milestones</strong> — stylized holographic streak visualization (static numbers shown in about/profile).
+          </div>
+        </div>
+
       </div>
 
     </td>
   </tr>
 </table>
 
+<!-- Particles overlay (subtle visual) -->
+<div style="width:100%; max-width:1150px; margin:auto; margin-top:14px;">
+  <img src="./assets/particle-overlay.gif" alt="particles" style="width:100%; border-radius:12px; opacity:0.95; box-shadow: 0 8px 30px rgba(0,0,0,0.35);" />
 </div>
+
+<!-- Footer -->
+<div style="max-width:1150px; margin:auto; text-align:center; margin-top:18px; color:#9fe6d6; font-size:13px;">
+  <p style="margin:6px 0;"><b>Let's build things that last — clean code, reproducible research, and production-ready AI.</b></p>
+  <p style="margin:6px 0; color:#8fe6d2;">Want me to place this README directly into your repo and confirm the look? I can push the final README or generate smaller/optimized GIFs to reduce repo size.</p>
+</div>
+
