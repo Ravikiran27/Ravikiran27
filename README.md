@@ -17,7 +17,8 @@ MCA Student @ NMAMIT • Building impactful computer vision & multi-algorithm AI
 ## 🛠 Tech Stack
 <p align="center">
   <!-- Skill icons for commonly used technologies -->
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,tf,pytorch,opencv,yolo,jupyter,selenium,html,css,js,typescript,react,nodejs,fastapi,flask,graphql,postgres,mongodb,redis,matlab,git,docker,linux,bash,aws,azure,gcp,vscode,heroku" alt="Tech Stack" />
+<img width="1400" height="376" alt="image" src="https://github.com/user-attachments/assets/c73b1499-8a1e-4f71-bad9-9b112acb449d" />
+
 </p>
 <p align="center">
   <!-- Static badges for extra technologies -->
